@@ -11,7 +11,9 @@ The example below would update the local.example.com A record to the current ext
 
 # Prerequisites
 Bash
+
 jq
 # Related
 I would like to express my gratitude to @skylerwlewis here
+
 skylerwlewis/netlify-ddns https://github.com/skylerwlewis/netlify-ddns
