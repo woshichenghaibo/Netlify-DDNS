@@ -10,7 +10,9 @@ v6ddns.sh ACCESS_TOKEN DOMAIN SUBDOMAIN TTL [CACHED_IP_FILE]
 The example below would update the local.example.com A record to the current external IP with a TTL of 5 minutes. The last parameter for the script is optional and is used to cache the Netlify IP to reduce API calls. netlify-ddns.sh aCcEsStOKeN example.com local 3600 /home/johnsmith/cached-ip-file.txt
 
 # Prerequisites
-Bash
+curl
+
+bash
 
 jq
 # Related
